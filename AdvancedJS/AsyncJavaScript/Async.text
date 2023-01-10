@@ -1,0 +1,20 @@
+Async JavaScript - what and why ?
+Its a most basic form javascript is synchronous, blocking , single threaded language
+
+synchronous
+IF WE HAVE 2 FUNCCTIONS WITH LOG MESSAGES TO THE CONSOLE , CODE EXECUTES TOP DOWN
+WITH ONLY ONE LINE EXECUTING AT ANY GIVEN TIME
+
+blocking
+1.NO MATTER HOW LONG A PREVIOUS PROCESS TAKES,THE SUBSEQUENT PROCESSES WON'T KICK OFF UNTIL
+  THE FORMAR IS COMPLETED
+2.IF FUNCTION A HAD TO EXECUTE AN INTENSIVE CHUNK OF CODE ,JS HAS TO FINISH THAT
+   WITHOUT MOVING ON TO FUNCTION B. EVEN IF THAT CODE TAKES 10 SECONDS OR 1 MINUTES 
+3.WEB APPS RUNS IN A BROWSER AND IT EXECUTES AN INTNSIVE CHUNK OF CODE WITHOUT 
+  RETURNING CONTROL TO THE BROWSER , THE BROWSER CAN APPEAR TO BE FROZEN 
+
+Single-Threaded
+1.A thraed is simply a procss that your javascript program can use to run a task 
+2.Each thraed can only do one task at a TIME
+3.JavaScript has just on thread that is main thraed for executing any thraed
+  
